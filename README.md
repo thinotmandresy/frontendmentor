@@ -1,35 +1,3 @@
-# Frontend Mentor - QR code component solution
+# Frontend Mentor Solutions
 
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
-
-## Table of contents
-
-- [Overview](#overview)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-- [Author](#author)
-
-## Overview
-
-### Screenshot
-
-![Screenshot of the solution](./images/qr-code-solution.png "Screenshot of the solution")
-
-### Links
-
-- Solution URL: you're already here :)
-- Live Site URL: [QR code component - GitHub Pages](https://thinotmandresy.github.io/qr-code-component/)
-
-## My process
-
-### Built with
-
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-
-## Author
-
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/alistairjah)
+This repository contains my solutions to the challenges on [Frontend Mentor](https://www.frontendmentor.io/). Each challenge has its own folder, and each folder contains a `README.md` file with a screenshot of the solution and a link to the live site.
