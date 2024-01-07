@@ -81,7 +81,7 @@ main {
 }
 
 .accordion-content.active {
-  max-height: 100vh;
+  max-height: 100px;
 }
 
 .accordion-icon-plus.hide {
