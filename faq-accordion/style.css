@@ -1,0 +1,116 @@
+@font-face {
+  font-family: "Work Sans";
+  src: url("./assets/fonts/static/WorkSans-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("./assets/fonts/static/WorkSans-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("./assets/fonts/static/WorkSans-SemiBold.ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {
+  background-image: url("./assets/images/background-pattern-mobile.svg");
+  background-repeat: repeat-x;
+  background-color: hsl(275, 100%, 97%);
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  display: flex;
+  gap: 1.5rem;
+  font-size: calc(1.5rem + 1.5vw);
+  font-weight: 700;
+  color: hsl(292, 42%, 14%);
+}
+
+main {
+  width: 80%;
+  max-width: 500px;
+  margin: 5rem auto;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0px 20px hsla(0, 0%, 0%, 0.2);
+  background: hsl(0, 0%, 100%);
+}
+
+.accordion-item {
+  border-bottom: 2px solid hsl(275, 100%, 97%);
+}
+
+.accordion-item:last-child {
+  border-bottom: none;
+}
+
+.accordion-item:hover .accordion-button {
+  color: hsl(281, 83%, 54%);
+}
+
+.accordion-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.05rem;
+  font-weight: 700;
+  text-align: left;
+  color: hsl(292, 42%, 14%);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.accordion-content {
+  padding: 0 1rem;
+  margin: 0 0 1rem 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.accordion-content.active {
+  max-height: 100vh;
+}
+
+.accordion-icon-plus.hide {
+  display: none;
+}
+
+.accordion-icon-minus.hide {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url("./assets/images/background-pattern-desktop.svg");
+    background-repeat: repeat-x;
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
