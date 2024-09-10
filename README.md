@@ -1,2 +1,3 @@
-# frontendmentor
-This is where I put all my solutions to Frontend Mentor challenges.
+# Frontend Mentor solutions
+
+This repository contains all of my solutions to [Frontend Mentor](https://www.frontendmentor.io/) challenges.
